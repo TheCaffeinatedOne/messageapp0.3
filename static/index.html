@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Discord 2: eletricboogaloo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Discord 2: <br>
+     eletric boogaloo</h1>
+
+    <div class="chatwrapper">
+    <div class="chat-dump"></div>
+    </div>
+    <div class="inputs">
+
+
+name: <input id="alias" type="text" placeholder="name" lable="name" /><br>
+  <form class="chat-form">
+    <label class="chat-label" for="chat-input">
+      message:
+    </label>
+    <input autocomplete="off" placeholder="message" type="text" class="chat-input" id="chat-input">
+    <input type="submit" class="chat-submit" value="enter">
+  </form>
+      </div>
+<script src="socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

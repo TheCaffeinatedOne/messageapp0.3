@@ -1,0 +1,46 @@
+body {
+font-family: monospace;
+background-color: rgba(40,43,48);
+color: white;
+}
+@media screen and (max-width: 767px) {
+  input, select, textarea {
+    font-size: 16px;
+  }
+}
+h1{
+
+}.chatwrapper{
+  margin-right: 30%;
+  width: 70%;
+}form{
+
+}.inputs {
+  background-color: white;
+  position: fixed;
+  top : 0;
+  margin-top: 5%;
+  margin-left: 70%;
+  padding: 10px;
+  background-color: rgba(66,69,73);
+  border-radius: 10px;
+  margin-right: 10%;
+  width: 20%
+}
+input {
+  border-radius: 5px;
+  padding: 5px;
+  width: 90%;
+  margin:1%;
+  -webkit-appearance: none;
+}
+.chat-submit{
+  background-color: rgba(114,137,218);
+  border-color: rgba(114,137,218);
+  margin-top: 5%;
+  width: 95%;
+}.chat-dump {
+
+}.chat-mesage {
+  margin-bottom: 10px;
+}
