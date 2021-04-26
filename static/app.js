@@ -31,4 +31,5 @@ const render = ({message, id}) => {
 
 socket.on('chat', data => {
   render(data)
+  document.getElementById( 'bottom' ).scrollIntoView();
 })

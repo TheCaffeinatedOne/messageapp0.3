@@ -27,7 +27,7 @@ h1{
   margin-right: 10%;
   width: 20%
 }
-input {
+input,button {
   border-radius: 5px;
   padding: 5px;
   width: 90%;
@@ -42,5 +42,15 @@ input {
 }.chat-dump {
 
 }.chat-mesage {
+
   margin-bottom: 10px;
+
+}.whole-ass-wrapper {
+
+}
+button{
+  background-color: rgba(114,137,218);
+  border-color: rgba(114,137,218);
+  margin-top: 5%;
+  width: 50%;
 }
